@@ -355,17 +355,6 @@ mvn spring-boot:run
 
 La aplicación estará disponible en: `http://localhost:8080`
 
-## 📝 Notas Importantes
-
-### Mejoras Sugeridas:
-1. **Validación de datos**: Implementar validaciones con `@Valid` y Bean Validation
-2. **Manejo de excepciones**: Crear un `@ControllerAdvice` para manejo centralizado de errores
-3. **DTOs**: Separar modelos de entrada/salida de las entidades
-4. **Seguridad**: Implementar Spring Security para proteger endpoints
-5. **Paginación**: Agregar endpoint para listar tarjetas con paginación
-6. **Logging**: Implementar logging con SLF4J
-7. **Testing**: Agregar tests unitarios e integración
-
 ### Consideraciones de Seguridad:
 - El número de tarjeta se genera con `Random`, en producción usar `SecureRandom`
 - Las credenciales en `application.properties` deberían estar en variables de entorno
@@ -377,6 +366,7 @@ La aplicación estará disponible en: `http://localhost:8080`
 - ❌ Inteligencia Artificial (ChatGPT, GitHub Copilot, etc.)
 - ❌ Herramientas de generación automática de código
 - ❌ Asistentes de código basados en IA
+- ❌ Google / Navegador
 
 Todo el código fue escrito línea por línea utilizando únicamente:
 - ✅ Conocimientos propios de programación
@@ -398,11 +388,3 @@ Un agradecimiento especial a **Banco Santander** por brindar esta oportunidad y 
 Agradezco la confianza depositada en este proceso y la oportunidad de demostrar competencias técnicas en el desarrollo de aplicaciones empresariales.
 
 ---
-
-## 📧 Contacto
-
-Para consultas o aclaraciones sobre el proyecto, no dude en contactar al desarrollador.
-
----
-
-**Desarrollado con 💻 y ☕ para Banco Santander**
